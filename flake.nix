@@ -63,5 +63,18 @@
           };
         }
       );
+      packages = forAllSystems (
+        system:
+        let
+          pkgs = pkgsFor.${system};
+          pkgs-unstable = pkgsUnstableFor.${system};
+        in
+        {
+          default = pkgs.callPackage ./package/qgis-conda.nix {
+            micromambaShellPkg = micromamba-shell.packages.${system}.default;
+            qgisVersion = "3.44.9";
+          };
+        }
+      );
     };
 }
