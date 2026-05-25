@@ -10,7 +10,7 @@ let
     ${micromambaShellPkg}/bin/micromamba-shell -c "
       if [ ! -d \"\$MAMBA_ROOT_PREFIX/envs/qgis-conda-env\" ]; then
         echo 'Initializing QGIS environment...'
-        micromamba create -y -n qgis-conda-env -c conda-forge qgis==${qgisVersion}
+        micromamba create -y -n qgis-conda-env -c conda-forge qgis==${qgisVersion} qt-webengine pyqtwebengine
         echo 'QGIS environment created successfully.'
       fi
     "
