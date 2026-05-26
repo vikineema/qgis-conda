@@ -5,11 +5,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1777360575,
-        "narHash": "sha256-NUyuDyIskBf9JKCyh1cdtJjaVbo1u5xImfnW9H1v3P4=",
+        "lastModified": 1779834973,
+        "narHash": "sha256-/VkGqt4rNnsSnB9OOG1l/uXrdGDd2/imUa2qZo7phvQ=",
         "owner": "vikineema",
         "repo": "micromamba-shell",
-        "rev": "44f39e68759898f172425df1e6a644e7d311049c",
+        "rev": "e1dc37e02dc57bc34b677482dc13b8ac05c4fbbc",
         "type": "github"
       },
       "original": {
@@ -36,11 +36,11 @@
     },
     "nixpkgs-unstable": {
       "locked": {
-        "lastModified": 1779508470,
-        "narHash": "sha256-Ap9KJX+5xHIn3bPIpfNgT6MEXdAECECwo4/rmlQD74M=",
+        "lastModified": 1779560665,
+        "narHash": "sha256-tpyBcxPpcQb8ukyNF7DoCwfSY3VPsxHoYwj00Cayv5o=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "29916453413845e54a65b8a1cf996842300cd299",
+        "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
         "type": "github"
       },
       "original": {
